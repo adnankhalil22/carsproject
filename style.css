@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    width: 100%;
+    padding: 10px 0;
+
+}
+.bar{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.bar .menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.bar ul{
+    display: inline-flex;
+}
+.bar ul li{
+    list-style-type: none;
+    margin-left: 10px;
+
+}
+.bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    
+}
+.bar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size:cover ;
+    border-radius: 15px 15px 0 0;
+
+}
+.car-1{
+    background-image: url('imgs/14566.jpg');
+}
+.car-2{
+    background-image: url('imgs/2021-bmw-m5-competition-579-edit-1625696490.jpg');
+
+}
+.car-3{
+    background-image: url('imgs/car-5718701_640.jpg');
+
+}
+.car-4{
+    background-image: url('imgs/depositphotos_485288722-stock-photo-black-ford-mustang-model-parked.jpg');
+}
+.car-5{
+    background-image: url('imgs/e1d7a46a4dac54e8cdc61e3ad2e86861.jpg');
+}
+.car-6{
+    background-image: url('imgs/grey-car.jpg');
+}
+.car-7{
+    background-image: url('imgs/mclaren-765lt-thedrive-072-jpg-1601653694.jpg');
+}
+.car-8{
+    background-image: url('imgs/McLaren_P1.jpg');
+}
+.car-9{
+    background-image: url('imgs/porsche-911-turbo-720x405px.jpg');
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 20px;
+}
+.card a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.footer{
+    padding: 80px 0;
+}
+.container1{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.column{
+    width: 25%;
+    padding: 0 15px;
+}
+.column h4{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+   
+}
+.column h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 5px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.column ul li a{
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    transition: all 0.4s ease;
+}
+.column ul li a:hover{
+    color: white;
+    padding-left: 10px;
+
+}
+.column .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(225, 225, 225, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+.column .social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
+@media(max-width:700px){
+    .bar{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:700px){
+    .column{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:600px){
+    .column{
+    width: 100%;
+    }
+
+}
+
+
+
+
+
+
+  
+   
+  
+    
+
+
